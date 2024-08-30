@@ -1,0 +1,43 @@
+.main{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 17rem;
+    margin-left: 25rem;
+}
+
+.face{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 2rem;
+    margin-left: 3rem;
+}
+
+.eye{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    border: 2px ssolid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4rem;
+    position: relative;
+}
+
+.mouth{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: palegreen;
+    margin: 4rem;
+    margin-left: 6rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+.main:hover{
+    box-shadow: 3px 3px 3px 3px gold;
+}
